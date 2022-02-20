@@ -18,6 +18,7 @@
 		795D42191D3F7BD500B879D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795D42121D3F7BD500B879D9 /* AppDelegate.swift */; };
 		795D421B1D3F7C0100B879D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 795D421A1D3F7C0100B879D9 /* Assets.xcassets */; };
 		795D42231D3F7CC000B879D9 /* ConversationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795D42221D3F7CC000B879D9 /* ConversationDataSource.swift */; };
+		FB16BD3027C26A9E00338AB5 /* ChatBot.png in Resources */ = {isa = PBXBuildFile; fileRef = FB16BD2F27C26A9E00338AB5 /* ChatBot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		795D42121D3F7BD500B879D9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ChatBot/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		795D421A1D3F7C0100B879D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ChatBot/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		795D42221D3F7CC000B879D9 /* ConversationDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConversationDataSource.swift; path = ChatBot/ConversationDataSource.swift; sourceTree = SOURCE_ROOT; };
+		FB16BD2F27C26A9E00338AB5 /* ChatBot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChatBot.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		795D42251D3F821E00B879D9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				FB16BD2F27C26A9E00338AB5 /* ChatBot.png */,
 				795D42121D3F7BD500B879D9 /* AppDelegate.swift */,
 				4C70A31E1CC4517D00D64014 /* Info.plist */,
 			);
@@ -155,6 +158,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -176,6 +180,7 @@
 				7911E9211D40FED400DB0464 /* LaunchScreen.storyboard in Resources */,
 				795D421B1D3F7C0100B879D9 /* Assets.xcassets in Resources */,
 				7911E9201D40FED400DB0464 /* Main.storyboard in Resources */,
+				FB16BD3027C26A9E00338AB5 /* ChatBot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
